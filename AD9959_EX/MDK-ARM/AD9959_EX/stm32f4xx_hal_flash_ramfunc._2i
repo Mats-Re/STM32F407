@@ -1,0 +1,5 @@
+--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Core/ad9959 -I ../Core/UART
+-I.\RTE\_AD9959_EX
+-ID:\data\KEIL\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx
+-o ad9959_ex\stm32f4xx_hal_flash_ramfunc.o --omf_browse ad9959_ex\stm32f4xx_hal_flash_ramfunc.crf --depend ad9959_ex\stm32f4xx_hal_flash_ramfunc.d --feedback "AD9959_EX\AD9959_EX.fed" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c"
